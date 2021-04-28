@@ -6,6 +6,9 @@
   position: relative;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cover:before {
