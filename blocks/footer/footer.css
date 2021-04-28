@@ -24,7 +24,7 @@
   .footer {
     padding-top: 64px;
     width: calc(100vw - 16px * 2);
-    display: grid;  
+    display: grid;
     grid-template-rows: repeat(2, min-content);
     gap: 48px;
   }
