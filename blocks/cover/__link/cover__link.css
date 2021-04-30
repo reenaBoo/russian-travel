@@ -8,4 +8,23 @@
   color: #FFFFFF;
   text-decoration: none;
   z-index: 1;
+  padding: 245px 0 245px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__link {
+    padding: 195px 0 195px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__link {
+    padding: 115px 0 115px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cover__link {
+    padding: 33px 0 33px;
+  }
 }

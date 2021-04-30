@@ -2,10 +2,10 @@
   max-width: 1184px;
   margin: 0 auto;
   min-height: 740px;
-  max-height: 740px;
   position: relative;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,6 @@
 }
 
 .cover:hover:before {
-  background-color: #2A2C2F;
   opacity: .8;
 }
 
@@ -36,7 +35,6 @@
 
 @media screen and (max-width: 768px) {
   .cover {
-    width: 100%;
     min-height: 480px;
     max-height: 480px;
   }
@@ -44,7 +42,6 @@
 
 @media screen and (max-width: 500px) {
   .cover {
-    width: 100%;
     min-height: 200px;
     max-height: 200px;
   }
