@@ -29,20 +29,17 @@
   .cover {
     width: 100%;
     min-height: 640px;
-    max-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
     min-height: 480px;
-    max-height: 480px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .cover {
     min-height: 200px;
-    max-height: 200px;
   }
 }
